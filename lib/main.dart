@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test/components/gesturedector.dart';
+import 'package:test/components/gridviewbuilder.dart';
 
 void main() {
   runApp(const MyWidget());
@@ -13,7 +13,7 @@ class MyWidget extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "this is title",
-      home: GesturedectorTest(),
+      home: GridviewbuilderTest(),
     );
   }
 }
